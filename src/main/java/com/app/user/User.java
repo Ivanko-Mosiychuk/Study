@@ -1,4 +1,6 @@
-package com.app;
+package com.app.user;
+
+import com.app.Cart;
 
 public class User {
     private String name;

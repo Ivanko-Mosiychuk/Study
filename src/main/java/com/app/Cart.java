@@ -1,5 +1,7 @@
 package com.app;
 
+import com.app.item.Item;
+
 import java.util.ArrayList;
 import java.util.List;
 

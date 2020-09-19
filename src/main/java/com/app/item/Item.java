@@ -1,4 +1,4 @@
-package com.app;
+package com.app.item;
 
 public class Item {
     private String name;
