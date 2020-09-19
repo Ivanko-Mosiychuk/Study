@@ -10,7 +10,15 @@ public class Cart {
         this.listOfItems = new ArrayList<>();
     }
 
-    public List<Item> getListOfItems() {
+    private List<Item> getListOfItems() {
         return listOfItems;
+    }
+
+    public void addItemToCart(Item item){
+        this.getListOfItems().add(item);
+    }
+
+    public void deleteItemFromCart(Item item){
+        this.getListOfItems().remove(item);
     }
 }
