@@ -1,8 +1,17 @@
 package com.app;
 
 public enum UserRole {
-    Admin;
-    private final String ADMIN = "admin";
-    private final String BUYER = "buyer";
-    private final String SELLER = "seller";
+    ADMIN("admin"),
+    SELLER("seller"),
+    BUYER("buyer");
+
+    private String name;
+
+    UserRole(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
